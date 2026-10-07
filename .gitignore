@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+.nomedia
+
+# Godot-specific ignores
+# Keep .import files (they hold setting overrides for assets), but ignore the config exports if they contain secrets.
+export.cfg
+export_credentials.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores (if you are using C# / Mono version)
+.mono/
+data_*/
+mono_crash.*.json
+
+# System specific temporary files
+.DS_Store
+Thumbs.db
